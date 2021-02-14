@@ -1,0 +1,151 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  --text-color: #1d3557;
+  --background-color: #f1faee;
+  --nav-background: #e63946;
+  --nav-text-color: white;
+  --scrollbar-thumb: #457b9d;
+}
+
+body {
+  margin: 0;
+  margin-top: 10vh;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+}
+
+ul.ul-nav {
+  list-style-type: none;
+  margin: 0;
+}
+
+a.anchor-nav {
+  color: currentColor;
+  text-decoration: none;
+}
+
+div.page-container {
+  padding: 0 2.5vw 0 2.5vw;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: #a8dadc;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 5px;
+}
+
+nav.navbar {
+  width: 100%;
+  height: 6vh;
+  background: var(--nav-background);
+  color: var(--nav-text-color);
+  font-size: 1.15em;
+  position: fixed;
+  top: 0;
+}
+
+ul.navbar-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.div1 {
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+div.div2 {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+div.intro-container {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+img.cloud {
+  position: absolute;
+  left: 20vw;
+  z-index: -1;
+}
+
+hr {
+  margin: 3rem auto;
+  border-style: dashed none none none;
+  border-top: dashed #a8dadc;
+  border-width: 0.4rem;
+  border-radius: 10px;
+  width: 30vw;
+}
+
+div.footer {
+  background: var(--text-color);
+  width: 100%;
+  height: fit-content;
+  color: var(--nav-text-color);
+  margin: 8rem 0 0 0;
+  text-align: center;
+}
+
+ul.ul-footer {
+  display: inline-block;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+}
+
+li.li-footer {
+  padding: 0.4rem 2.5rem;
+  text-align: center;
+}
+
+img.circle-img {
+  width: 190px;
+  border-radius: 50%;
+  float: left;
+  margin: 1.5rem;
+}
+
+img.circle-gif {
+  width: 190px;
+  border-radius: 50%;
+  float: right;
+  margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+img.my_photo {
+  width: 150px;
+  border-radius: 8%;
+}
+
+div.img-and-text {
+  margin: 4rem auto;
+  width: 60%;
+}
+
+li.li-foot-titles {
+  font-weight: bold;
+  font-size: 1.2em;
+}
